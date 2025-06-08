@@ -27,7 +27,7 @@ export class CursorController extends BaseScriptComponent {
       cursor.interactor = interactor as BaseInteractor
     })
   }
-
+ 
   /**
    * @deprecated in favor of getCursorByInteractor
    * Gets the InteractorCursor for a specified interactor

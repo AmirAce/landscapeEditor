@@ -7,8 +7,8 @@ import { VectorUtils } from "./VectorUtils";
 export class CubeManager extends BaseScriptComponent {
 
     @input private cubePrefab: ObjectPrefab;
-    @input private readySound: AudioComponent
-    @input private revertAllSound: AudioComponent
+    //@input private readySound: AudioComponent
+  //  @input private revertAllSound: AudioComponent
 
     private camera = WorldCameraFinderProvider.getInstance();
     private readonly SIZE = 10;
@@ -26,7 +26,7 @@ export class CubeManager extends BaseScriptComponent {
         delayedEvent.reset(1);
     }
 
-    public createNewGrid() :void{
+    public createNewGrid() :void{ 
         for (const cube of this.cubes) {
             cube.getSceneObject().destroy();
         }

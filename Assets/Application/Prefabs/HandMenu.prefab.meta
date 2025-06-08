@@ -242,14 +242,16 @@
   Enabled: true
   ScriptAsset: !<reference> 5bae9ae4-7517-4d94-983c-7e073437b650
   ScriptInputsDefault:
+    dropAllButton: true
+    revertAllButton: true
     cubeManager: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
       createNewGridButton: !<reference.SceneObject> 1724cc8b-a362-4996-a151-5650709be30c
-      dropAllButton: !<reference.SceneObject> a912c8a3-7d56-40dd-bd0c-2c737c04b650
-      revertAllButton: !<reference.SceneObject> db2e594d-2e4c-482a-a88b-7c74a0cca99a
+      dropAllButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      revertAllButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       cubeManager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":

@@ -85,7 +85,7 @@
   ForceCompound: false
   Intangible: false
   ShowCollider: false
-  Dynamic: true
+  Dynamic: false
   BodySetting: Density
   BodySettingValue: 0.100000
   Damping: 0.000000

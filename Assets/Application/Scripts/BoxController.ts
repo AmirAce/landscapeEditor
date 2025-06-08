@@ -28,7 +28,7 @@ export class NewScript extends BaseScriptComponent {
         return this.boxId;
     }
     onAwake() {
-
+ 
     }
 }
   
